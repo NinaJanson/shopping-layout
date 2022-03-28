@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Quicksand", sans-serif;
+  --background-grey: #f5f5f5;
+  --border-radius-5: 5%;
+  --background-blue: #495fb9;
+  --color-text: grey;
+}
+
+body {
+  background-color: #f5f5f5;
+  margin: 0rem;
+}
+
+.brand {
+  width: 40vmin;
+  background-color: white;
+  border-bottom: 5px transparent solid;
+  border-radius: var(--border-radius-5);
+  margin: 2rem;
+  position: relative;
+}
+
+.img-overlay {
+  _background-color: red;
+  background: linear-gradient(transparent, white);
+  border-radius: var(--border-radius-5);
+  width: 100%;
+  height: 250px;
+  position: absolute;
+}
+
+.shoe-img {
+  max-width: 100%;
+  border: 1px solid black;
+  border-radius: var(--border-radius-5);
+  padding: 0px;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+.description {
+  font-size: 0.8rem;
+  color: var(--color-text);
+  margin: 1rem;
+}
+
+.bottom-part {
+  padding: 0.5rem;
+  margin: 1rem;
+  background-color: var(--background-grey);
+  border-radius: 8%;
+}
+
+.price {
+  padding: 5px;
+  background: white;
+  border-radius: 8%;
+  text-align: center;
+}
+
+.size-quantity {
+  font-size: 0.8rem;
+}
+
+select + label {
+  padding-left: 3rem;
+}
+
+.blue {
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+  border-radius: 50%;
+}
+
+.red {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.black {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.color-flex {
+  display: grid;
+  grid-template-columns: auto min-content min-content min-content;
+  _grid-template-rows: min-content;
+  margin: 1rem;
+  justify-content: start;
+  _align-content: center;
+  text-align: center;
+  grid-column-gap: 0.5rem;
+}
+
+.color {
+  font-size: 0.8rem;
+  _padding-left: -1rem;
+}
+
+.dot {
+  margin-top: 0.8rem;
+}
+
+/*.blue-button {
+  _width: 100%;
+  margin: 2rem 0rem;
+  padding: 0.5rem 5rem;
+  background-color: var(--background-blue);
+  color: white;
+  _text-align: center;
+  border-radius: 20%;
+}*/
+
+.button {
+  padding: 0.5rem 5rem;
+  background-color: var(--background-blue);
+  color: white;
+  text-align: center;
+  border-radius: 10%;
+}
